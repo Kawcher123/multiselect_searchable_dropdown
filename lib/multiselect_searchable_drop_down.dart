@@ -369,6 +369,16 @@ class _MultiSelectSearchableDropdownState extends State<MultiSelectSearchableDro
   }
 
   @override
+  void didUpdateWidget(covariant MultiSelectSearchableDropdown oldWidget) {
+    // TODO: implement didUpdateWidget
+    super.didUpdateWidget(oldWidget);
+
+    print('_MultiSelectDropdownState.onSearchTextChanged:${widget.list}');
+    filteredOptions = [...widget.list];
+
+  }
+
+  @override
   void dispose() {
     filterController.dispose();
     debounce?.cancel();
