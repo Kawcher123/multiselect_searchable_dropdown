@@ -1,7 +1,7 @@
 name: searchable_drop_down
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Kawcher123/multiselect_searchable_dropdown
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
